@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IPC FOOD</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">IPC FOOD</p>
+          <h1>Alimentarse mejor gastando menos</h1>
+        </div>
+        <div class="status-pill" id="header-status">MVP estático</div>
+      </header>
+
+      <nav class="section-tabs" aria-label="Navegación principal">
+        <button class="tab-button active" type="button" data-section="home">Inicio</button>
+        <button class="tab-button" type="button" data-section="planner">Planificador</button>
+        <button class="tab-button" type="button" data-section="basket">Canasta</button>
+        <button class="tab-button" type="button" data-section="compare">Comparador</button>
+        <button class="tab-button" type="button" data-section="myths">Mitos</button>
+        <button class="tab-button" type="button" data-section="tips">¿Sabías?</button>
+        <button class="tab-button" type="button" data-section="shopping">Compra</button>
+      </nav>
+
+      <section class="notice-card" aria-label="Aviso de prototipo">
+        Precios referenciales para prototipo académico. No corresponden a precios en tiempo real.
+      </section>
+
+      <section id="home" class="app-section active">
+        <div class="hero-card">
+          <div>
+            <span class="icon-badge good">✓</span>
+            <h2>Decisiones simples para hogares con presupuesto limitado</h2>
+            <p>Ingresa presupuesto, personas e ingredientes disponibles. IPC FOOD prioriza recetas rendidoras, alimentos convenientes y compras útiles.</p>
+          </div>
+          <button class="primary-action" type="button" data-jump="planner">Planificar comida</button>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card">
+            <span class="metric-label">Presupuesto por comida</span>
+            <strong id="home-meal-budget">$0</strong>
+            <small id="home-budget-tone">Calculando</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Recetas sugeridas</span>
+            <strong id="home-recipe-count">0</strong>
+            <small>ordenadas por rendimiento</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">Compra estimada</span>
+            <strong id="home-shopping-total">$0</strong>
+            <small>ingredientes faltantes</small>
+          </article>
+        </div>
+      </section>
+
+      <section id="planner" class="app-section">
+        <div class="section-heading">
+          <div>
+            <h2>Planificador de comidas</h2>
+            <p>Máximo tres acciones: ajustar presupuesto, elegir personas y marcar alimentos disponibles.</p>
+          </div>
+        </div>
+
+        <div class="planner-grid">
+          <article class="panel-card">
+            <h3>1. Datos del hogar</h3>
+            <div class="input-grid">
+              <label>
+                Presupuesto disponible
+                <input id="budget-input" type="number" min="0" step="1000" value="90000">
+              </label>
+              <label>
+                Personas
+                <input id="people-input" type="number" min="1" max="12" step="1" value="4">
+              </label>
+              <label>
+                Comidas por día
+                <input id="meals-input" type="number" min="1" max="6" step="1" value="2">
+              </label>
+              <label>
+                Días a cubrir
+                <input id="days-input" type="number" min="1" max="31" step="1" value="15">
+              </label>
+            </div>
+            <div class="budget-summary">
+              <div>
+                <span>Por comida</span>
+                <strong id="meal-budget">$0</strong>
+              </div>
+              <div>
+                <span>Por persona</span>
+                <strong id="person-budget">$0</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel-card">
+            <h3>2. Alimentos disponibles</h3>
+            <div id="food-selector" class="chip-grid"></div>
+          </article>
+        </div>
+
+        <article class="panel-card">
+          <div class="section-heading compact">
+            <div>
+              <h3>3. Recetas económicas</h3>
+              <p>Priorizadas por costo, rendimiento e ingredientes que ya tienes.</p>
+            </div>
+          </div>
+          <div id="recipe-list" class="card-list"></div>
+        </article>
+      </section>
+
+      <section id="basket" class="app-section">
+        <div class="section-heading">
+          <div>
+            <h2>Canasta Básica Inteligente</h2>
+            <p>Ranking por relación precio-beneficio: costo por porción, proteína, saciedad y rendimiento.</p>
+          </div>
+        </div>
+        <div id="basket-ranking" class="food-grid"></div>
+      </section>
+
+      <section id="compare" class="app-section">
+        <div class="section-heading">
+          <div>
+            <h2>Comparador de alimentos</h2>
+            <p>Puntuación de 1 a 10 según precio, proteína, saciedad y procesamiento.</p>
+          </div>
+        </div>
+        <div id="compare-grid" class="food-grid"></div>
+      </section>
+
+      <section id="myths" class="app-section">
+        <div class="section-heading">
+          <div>
+            <h2>Mitos alimenticios</h2>
+            <p>Información general ampliamente aceptada, presentada en formato mito y realidad.</p>
+          </div>
+        </div>
+        <div id="myths-list" class="myth-grid"></div>
+      </section>
+
+      <section id="tips" class="app-section">
+        <div class="section-heading">
+          <div>
+            <h2>¿Sabías que?</h2>
+            <p>Tarjetas breves sobre nutrición, ahorro, compras, cocina y conservación.</p>
+          </div>
+          <button id="shuffle-tip" class="secondary-action" type="button">Otra tarjeta</button>
+        </div>
+        <div id="tips-grid" class="tip-grid"></div>
+      </section>
+
+      <section id="shopping" class="app-section">
+        <div class="section-heading">
+          <div>
+            <h2>Lista de compra</h2>
+            <p>Ingredientes faltantes priorizados por utilidad, rendimiento y precio referencial.</p>
+          </div>
+        </div>
+        <div id="shopping-list" class="shopping-list"></div>
+        <div class="total-card">
+          <span>Total estimado</span>
+          <strong id="shopping-total">$0</strong>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

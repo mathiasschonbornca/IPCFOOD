@@ -1,0 +1,14 @@
+[
+  { "category": "nutrición", "text": "Combinar legumbres con arroz o fideos mejora el perfil de aminoácidos de la comida." },
+  { "category": "ahorro", "text": "Cocinar una olla grande de legumbres permite resolver varias comidas con menor costo por porción." },
+  { "category": "compras", "text": "Comparar costo por porción suele ser más útil que mirar solo el precio del paquete." },
+  { "category": "cocina", "text": "Un sofrito simple de cebolla y zanahoria mejora el sabor de guisos económicos." },
+  { "category": "conservación", "text": "Congelar verduras ya picadas ayuda a reducir pérdidas y acorta tiempos de preparación." },
+  { "category": "nutrición", "text": "La avena tiene buena relación entre precio, saciedad y aporte de proteína para el desayuno." },
+  { "category": "ahorro", "text": "Planificar dos o tres comidas base evita compras repetidas y reduce gastos impulsivos." },
+  { "category": "compras", "text": "Los alimentos secos como arroz, avena y legumbres suelen rendir más por peso que productos listos." },
+  { "category": "cocina", "text": "Cocinar en volumen reduce tiempo, energía y costo por comida." },
+  { "category": "conservación", "text": "Guardar sobras en porciones facilita usarlas antes de que se pierdan." },
+  { "category": "nutrición", "text": "Una comida económica puede ser equilibrada si combina base, proteína y verduras." },
+  { "category": "ahorro", "text": "Comprar primero alimentos base ayuda a cubrir más comidas antes de sumar complementos." }
+]

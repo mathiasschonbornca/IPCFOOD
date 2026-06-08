@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "notice": "Precios referenciales para prototipo académico",
+    "currency": "CLP",
+    "description": "Datos demo para una aplicación estática. No corresponden a precios en tiempo real."
+  },
+  "foods": [
+    {
+      "id": "arroz",
+      "name": "Arroz",
+      "category": "Base",
+      "avgPrice": 1290,
+      "unit": "1 kg",
+      "protein": 7,
+      "calories": 360,
+      "portions": 10,
+      "satiety": 3,
+      "processing": 1,
+      "stores": { "Lider": 1290, "Jumbo": 1390, "Unimarc": 1350, "Tottus": 1320 },
+      "note": "Base rendidora para acompañar legumbres, huevos o verduras."
+    },
+    {
+      "id": "lentejas",
+      "name": "Lentejas",
+      "category": "Proteína vegetal",
+      "avgPrice": 1990,
+      "unit": "1 kg",
+      "protein": 24,
+      "calories": 352,
+      "portions": 12,
+      "satiety": 5,
+      "processing": 1,
+      "stores": { "Lider": 1990, "Jumbo": 2290, "Unimarc": 2190, "Tottus": 2050 },
+      "note": "Buena relación entre precio, proteína y rendimiento."
+    },
+    {
+      "id": "fideos",
+      "name": "Fideos",
+      "category": "Base",
+      "avgPrice": 1090,
+      "unit": "400 g",
+      "protein": 12,
+      "calories": 350,
+      "portions": 4,
+      "satiety": 3,
+      "processing": 2,
+      "stores": { "Lider": 1090, "Jumbo": 1250, "Unimarc": 1190, "Tottus": 1150 },
+      "note": "Rápidos de preparar y útiles para comidas simples."
+    },
+    {
+      "id": "avena",
+      "name": "Avena",
+      "category": "Base",
+      "avgPrice": 1990,
+      "unit": "700 g",
+      "protein": 13,
+      "calories": 389,
+      "portions": 14,
+      "satiety": 4,
+      "processing": 1,
+      "stores": { "Lider": 1990, "Jumbo": 2330, "Unimarc": 2190, "Tottus": 2050 },
+      "note": "Rinde bien en desayunos y colaciones."
+    },
+    {
+      "id": "huevos",
+      "name": "Huevos",
+      "category": "Proteína",
+      "avgPrice": 3790,
+      "unit": "12 un",
+      "protein": 13,
+      "calories": 155,
+      "portions": 6,
+      "satiety": 4,
+      "processing": 1,
+      "stores": { "Lider": 3790, "Jumbo": 3890, "Unimarc": 3990, "Tottus": 3690 },
+      "note": "Versátiles para desayuno, almuerzo u once."
+    },
+    {
+      "id": "pollo",
+      "name": "Pollo",
+      "category": "Proteína",
+      "avgPrice": 3690,
+      "unit": "1 kg",
+      "protein": 27,
+      "calories": 165,
+      "portions": 5,
+      "satiety": 4,
+      "processing": 1,
+      "stores": { "Lider": 3690, "Jumbo": 3990, "Unimarc": 3890, "Tottus": 3790 },
+      "note": "Buena fuente de proteína cuando entra en el presupuesto."
+    },
+    {
+      "id": "atun",
+      "name": "Atún",
+      "category": "Proteína",
+      "avgPrice": 1390,
+      "unit": "1 lata",
+      "protein": 24,
+      "calories": 132,
+      "portions": 1,
+      "satiety": 4,
+      "processing": 3,
+      "stores": { "Lider": 1390, "Jumbo": 1490, "Unimarc": 1450, "Tottus": 1420 },
+      "note": "Práctico, aunque suele costar más por porción."
+    },
+    {
+      "id": "leche",
+      "name": "Leche",
+      "category": "Lácteo",
+      "avgPrice": 1250,
+      "unit": "1 L",
+      "protein": 3,
+      "calories": 61,
+      "portions": 4,
+      "satiety": 2,
+      "processing": 2,
+      "stores": { "Lider": 1250, "Jumbo": 1400, "Unimarc": 1350, "Tottus": 1290 },
+      "note": "Útil para desayunos y preparaciones con avena."
+    },
+    {
+      "id": "pan",
+      "name": "Pan",
+      "category": "Base",
+      "avgPrice": 1690,
+      "unit": "1 kg",
+      "protein": 9,
+      "calories": 265,
+      "portions": 8,
+      "satiety": 3,
+      "processing": 2,
+      "stores": { "Lider": 1690, "Jumbo": 1745, "Unimarc": 1790, "Tottus": 1650 },
+      "note": "Rinde mejor si se combina con proteína o verduras."
+    },
+    {
+      "id": "porotos",
+      "name": "Porotos",
+      "category": "Proteína vegetal",
+      "avgPrice": 2890,
+      "unit": "1 kg",
+      "protein": 21,
+      "calories": 337,
+      "portions": 12,
+      "satiety": 5,
+      "processing": 1,
+      "stores": { "Lider": 2890, "Jumbo": 3560, "Unimarc": 3190, "Tottus": 2990 },
+      "note": "Muy rendidores para cocinar en volumen."
+    },
+    {
+      "id": "papa",
+      "name": "Papa",
+      "category": "Base",
+      "avgPrice": 2390,
+      "unit": "2 kg",
+      "protein": 2,
+      "calories": 77,
+      "portions": 10,
+      "satiety": 4,
+      "processing": 1,
+      "stores": { "Lider": 2390, "Jumbo": 2590, "Unimarc": 2490, "Tottus": 2350 },
+      "note": "Aporta volumen y saciedad a bajo costo."
+    },
+    {
+      "id": "aceite",
+      "name": "Aceite",
+      "category": "Cocina",
+      "avgPrice": 2190,
+      "unit": "900 ml",
+      "protein": 0,
+      "calories": 884,
+      "portions": 40,
+      "satiety": 1,
+      "processing": 2,
+      "stores": { "Lider": 2190, "Jumbo": 2450, "Unimarc": 2350, "Tottus": 2250 },
+      "note": "Compra base para cocinar, usar en cantidades moderadas."
+    },
+    {
+      "id": "cebolla",
+      "name": "Cebolla",
+      "category": "Verdura",
+      "avgPrice": 1490,
+      "unit": "1 kg",
+      "protein": 1,
+      "calories": 40,
+      "portions": 8,
+      "satiety": 2,
+      "processing": 1,
+      "stores": { "Lider": 1490, "Jumbo": 1790, "Unimarc": 1590, "Tottus": 1520 },
+      "note": "Mejora sabor y volumen en preparaciones simples."
+    },
+    {
+      "id": "zanahoria",
+      "name": "Zanahoria",
+      "category": "Verdura",
+      "avgPrice": 1190,
+      "unit": "1 kg",
+      "protein": 1,
+      "calories": 41,
+      "portions": 8,
+      "satiety": 2,
+      "processing": 1,
+      "stores": { "Lider": 1190, "Jumbo": 1350, "Unimarc": 1290, "Tottus": 1250 },
+      "note": "Barata, rendidora y útil en guisos, ensaladas o sofritos."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "lentejas-arroz",
+      "name": "Lentejas con arroz y verduras",
+      "servings": 4,
+      "minutes": 35,
+      "items": [
+        { "foodId": "lentejas", "packages": 0.25 },
+        { "foodId": "arroz", "packages": 0.2 },
+        { "foodId": "cebolla", "packages": 0.15 },
+        { "foodId": "zanahoria", "packages": 0.2 },
+        { "foodId": "aceite", "packages": 0.03 }
+      ],
+      "benefit": "Alta saciedad y buena relación proteína/precio."
+    },
+    {
+      "id": "porotos-arroz",
+      "name": "Porotos con arroz",
+      "servings": 4,
+      "minutes": 45,
+      "items": [
+        { "foodId": "porotos", "packages": 0.25 },
+        { "foodId": "arroz", "packages": 0.2 },
+        { "foodId": "cebolla", "packages": 0.15 },
+        { "foodId": "zanahoria", "packages": 0.2 },
+        { "foodId": "aceite", "packages": 0.03 }
+      ],
+      "benefit": "Rinde bien para varios platos y permite cocinar en volumen."
+    },
+    {
+      "id": "tortilla-papa",
+      "name": "Tortilla de papa y huevo",
+      "servings": 3,
+      "minutes": 25,
+      "items": [
+        { "foodId": "papa", "packages": 0.35 },
+        { "foodId": "huevos", "packages": 0.33 },
+        { "foodId": "cebolla", "packages": 0.15 },
+        { "foodId": "aceite", "packages": 0.03 }
+      ],
+      "benefit": "Preparación simple con buena saciedad."
+    },
+    {
+      "id": "avena-leche",
+      "name": "Avena cocida con leche",
+      "servings": 2,
+      "minutes": 8,
+      "items": [
+        { "foodId": "avena", "packages": 0.18 },
+        { "foodId": "leche", "packages": 0.4 }
+      ],
+      "benefit": "Desayuno económico, rápido y rendidor."
+    },
+    {
+      "id": "fideos-atun",
+      "name": "Fideos con atún y cebolla",
+      "servings": 3,
+      "minutes": 18,
+      "items": [
+        { "foodId": "fideos", "packages": 1 },
+        { "foodId": "atun", "packages": 1 },
+        { "foodId": "cebolla", "packages": 0.12 },
+        { "foodId": "aceite", "packages": 0.02 }
+      ],
+      "benefit": "Comida rápida cuando se necesita resolver con pocos ingredientes."
+    },
+    {
+      "id": "arroz-huevo",
+      "name": "Arroz salteado con huevo",
+      "servings": 3,
+      "minutes": 20,
+      "items": [
+        { "foodId": "arroz", "packages": 0.25 },
+        { "foodId": "huevos", "packages": 0.25 },
+        { "foodId": "zanahoria", "packages": 0.2 },
+        { "foodId": "cebolla", "packages": 0.15 },
+        { "foodId": "aceite", "packages": 0.03 }
+      ],
+      "benefit": "Aprovecha sobras de arroz y suma proteína."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local dependencies and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated archives and local preview images
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Optional scraper runtime output
+scraping/output/*.json
+!scraping/output/.gitkeep
+
+# Vercel local metadata
+.vercel/
